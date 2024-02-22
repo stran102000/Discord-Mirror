@@ -1,7 +1,8 @@
 {
    "scripts": {
       "start": "node dist/index.js",
-      "compile": "npx tsc --build"
+      "compile": "npx tsc --build",
+      "deploy": "export RUN_POST_DEPLOY=true && npm start"
    },
    "dependencies": {
       "discord.js-selfbot-v13": "^2.14.10",
